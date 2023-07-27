@@ -35,7 +35,7 @@ export const Modal = ({ email = 'gouravmishra200105@gmail.com', fn }) => {
         <p className="text-center text-gray">
           Confirmation email has been sent to{' '}
           <span className="font-bold text-white">{email}</span> , you have to
-          confirm your email in order to get access to our pre-launch program.
+          confirm your email in order to  attach with US.
         </p>
       </motion.div>
     </motion.div>
