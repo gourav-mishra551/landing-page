@@ -1,17 +1,20 @@
-import { Navbar } from './components'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/Footer/Footer'
 import { Hero, Notify, Pricing, Showcase } from './sections'
 import { MotionConfig } from 'framer-motion'
 
 function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <div className="relative flex flex-col justify-center min-h-screen">
+      <div className='mb-30'>
         <Navbar />
         <Hero />
-      </div>
+        </div>
+      
       <Showcase />
       <Pricing />
       <Notify />
+      <Footer/>
     </MotionConfig>
   )
 }

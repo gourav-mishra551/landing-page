@@ -5,8 +5,8 @@ import { framer_card, framer_icon, framer_text } from './framer'
 export const Card = ({ info, ltr }) => {
   const { title, desc, price, isFree, Icon, options } = info
   const theme = isFree
-    ? 'bg-cyan-200'
-    : 'bg-cyan-100 md: text-midnight bg-gradient-to-tr from-cyan-100 to-sky'
+    ? 'bg-gradient-to-r from-indigo-500 '
+    : 'bg-gradient-to-r from-indigo-500 '
   return (
     <motion.article
       {...framer_card(ltr)}

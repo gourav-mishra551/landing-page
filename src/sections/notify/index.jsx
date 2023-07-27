@@ -30,8 +30,8 @@ export const Notify = () => {
   return (
     <>
       <section className="container p-5 mx-auto mb-40 space-y-10 bg-no-repeat bg-contain bg-bg-footer-squiggle">
-        <h2 className="text-3xl font-bold text-center">
-          Get notified when we launch
+        <h2 className="text-3xl font-bold text-center bg-gradient-to-r from-indigo-500  rounded-md">
+          Get notified for Our Plan
         </h2>
         <form
           noValidate
@@ -48,14 +48,14 @@ export const Notify = () => {
                 </AnimatePresence>
               </div>
               <input
-                className="p-3 transition-all duration-500 rounded-md bg-cyan-200 focus:outline-none hover:bg-cyan-300 focus:bg-cyan-300"
+                className="p-3 transition-all duration-500 rounded-md bg-indigo-500  focus:outline-none  focus:bg-cyan-300 text-black"
                 type="email"
                 id="email"
                 placeholder="john@gmail.com"
                 {...register('email', email_validation)}
               />
             </div>
-            <button className="p-3 font-bold transition-all duration-500 rounded-md bg-cyan-100 text-midnight hover:bg-cyan-400">
+            <button className="p-3 font-bold transition-all duration-500 rounded-md bg-gradient-to-r from-indigo-500  text-midnight hover:bg-cyan-400">
               Submit
             </button>
           </div>

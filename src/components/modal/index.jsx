@@ -6,7 +6,7 @@ import { VscChromeClose } from 'react-icons/vsc'
 import { motion } from 'framer-motion'
 import { framer_background, framer_modal } from './framer'
 
-export const Modal = ({ email = 'john@gmail.com', fn }) => {
+export const Modal = ({ email = 'gouravmishra200105@gmail.com', fn }) => {
   const ref = useRef()
 
   useOnClickOutside(ref, () => fn())
@@ -17,7 +17,7 @@ export const Modal = ({ email = 'john@gmail.com', fn }) => {
     >
       <motion.div
         {...framer_modal}
-        className="p-10 bg-gradient-to-t relative from-cyan-300 to-midnight rounded-md w-[100%] max-w-[35rem]"
+        className="p-10 bg-gradient-to-t relative from-cyan-300 to-black rounded-md w-[100%] max-w-[35rem]"
         ref={ref}
       >
         <button
